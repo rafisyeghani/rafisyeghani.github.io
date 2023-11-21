@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halaman About</title>
+
+  <link rel="stylesheet" href="/assets/style-utama.css">
+  <link rel="stylesheet" href="/assets/style-about.css">
+
+  <script>
+    // JavaScript function to toggle the visibility of the caption
+    function toggleCaption() {
+      var caption = document.querySelector('.card .caption');
+      caption.classList.toggle('hidden');
+    }
+  </script>
+
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="header-left"></div>
+      <div class="header-right">
+        <ul>
+          <li>
+            <a href="/index.html">Profile</a>
+          </li>
+          <li>
+            <a href="/about.html">About Me</a>
+          </li>
+          <li>
+            <a href="/contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <div class="judul">
+    <h1>About Me</h1>
+  </div>
+
+  <!-- Card Telkom -->
+  <div class="card">
+    <img src="/assets/telkom.jpg" alt="Card Image">
+    <!-- Caption -->
+    <div class="caption">
+      <h1 style="font-size: 25px; padding-bottom: 5px;">Berkuliah di IT Telkom Surabaya</h1>
+      <p style="font-size: 20px;">Saya mahasiswa Sistem Informasi semester 3 Insitut Telkom Surabaya, Institut Teknologi
+        Telkom Surabaya Terletak di Jl. Ketintang No.156, Surabaya, Jawa Timur </p>
+    </div>
+  </div>
+
+  <!-- Card Tumpak Sewu-->
+  <div class="card">
+    <img src="/assets/tumpak-sewuu.jpg" alt="Card Image">
+
+    <!-- Caption -->
+    <div class="caption">
+      <h1 style="font-size: 25px; padding-bottom: 5px;">Traveling</h1>
+      <p style="font-size: 20px;">Explore wisata alam merupakan kegiatan favorit saya dikala saya senggang, pada foto
+        diatas saya sedang explore Tumpak Sewu Lumajang Jawa Timur </p>
+    </div>
+  </div>
+
+  <!-- Card Si -->
+  <div class="card">
+    <img src="/assets/si.jpg" alt="Card Image">
+
+    <!-- Caption -->
+    <div class="caption">
+      <h1 style="font-size: 25px; padding-bottom: 5px;">Prodi Sistem Informasi</h1>
+      <p style="font-size: 20px;">Alasan saya mengambil prodi Sistem Informasi karena mencakup luas perihal teknologi
+        dan memberikan pengalaman kepada mahasiswa dalam implementasi di kehidupan langsung </p>
+    </div>
+  </div>
+
+  <footer>
+    <p style="font-size: 20px; font-weight: 300;">&copy; <span id="currentYear"></span> Mini Project UTS 3 | 1204220047
+      | Rafi Syeghani A.</p>
+  </footer>
+
+  <!-- UPDATE TAHUN-->
+  <script>
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+
+</html>

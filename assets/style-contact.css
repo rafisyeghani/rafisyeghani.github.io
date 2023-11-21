@@ -1,0 +1,35 @@
+.judul{
+    position: fixed;
+    margin-bottom: -400px;
+    text-align: center;
+    color: #07328f;
+    margin-top: 0px;
+    font-size: 50px;
+  }
+
+.instagram{
+    position: fixed;
+    align-items: center;
+    margin-bottom: -800px;
+    margin-left: -600px;
+}
+.facebook{
+    position: fixed;
+    align-items: center;
+    margin-bottom: -1200px;
+    margin-left: -600px;
+}
+.whatsapp{
+    position: fixed;
+    align-items: center;
+    margin-bottom: -800px;
+    margin-right: -600px;
+}
+
+.gmail{
+    position: fixed;
+    align-items: center;
+    margin-bottom: -800px;
+    margin-bottom: -1200px;
+    margin-right: -650px;
+}

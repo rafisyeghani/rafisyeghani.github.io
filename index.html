@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Profile</title>
+
+    <link rel="stylesheet" href="/assets/style-utama.css">
+    <link rel="stylesheet" href="/assets/style-profile.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-left"></div>
+            <div class="header-right">
+                <ul>
+                    <li>
+                        <a href="/index.html">Profile</a>
+                    </li>
+                    <li>
+                        <a href="/about.html">About Me</a>
+                    </li>
+                    <li>
+                        <a href="/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="card">
+        <div class="profile-box">
+            <img src="/assets/fotoku 1.png" class="fotoku">
+            <h2 style="font-weight: 900; margin-top: 10px; font-size: 25px;">Rafi Syeghani Ardiyanto</h2>
+            <h4 style="font-weight: 500; font-size: 30px; ">Mahasiswa</h4>
+
+            <div class="sosmed">
+                <a href="https://www.instagram.com/rafiiardiynto/"><img src="/assets/ig.png" alt=""></a>
+                <a href="https://www.facebook.com/profile.php?id=100028849610765&mibextid=ZbWKwL "><img
+                        src="/assets/fb.png" alt=""></a>
+            </div>
+
+            <a href="contact.html"><button type="button"> Follow Me</button></a>
+
+            <div class="profile-bottom">
+                <p style="color: rgb(76, 76, 76) ;">Profil Lebih Lanjut</p>
+                <a href="about.html"><img src="/assets/arrw.png"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="intro">
+        <div class="container">
+            <h2>HAI</h2>
+            <h3>KENALAN YUK!</h3>
+            <h4>Nama saya Rafi Syeghani Ardiyanto</h4>
+            <p>Saya mahasiswa Sistem Informasi Institut Teknologi Telkom Surabaya Angkatan 2022. Saya berusia 20 tahun,
+                saya tinggal di Jawa Timur tepatnya di Sepanjang, Taman, Sidoarjo.
+                Saya suka jalan-jalan di alam maupun kota-kota kecil itu merupakan kegiatan favorit saya untuk saat ini,
+                sekian perkenalan singkat dari saya terimaakasiii. </p>
+        </div>
+    </div>
+
+    <footer>
+        <p style="font-size: 20px; font-weight: 300;">&copy; <span id="currentYear"></span> Mini Project UTS 3 |
+            1204220047 | Rafi Syeghani A.</p>
+    </footer>
+
+    <!-- UPDATE TAHUN-->
+    <script>
+        document.getElementById("currentYear").textContent = new Date().getFullYear();
+    </script>
+
+</body>
+
+</html>

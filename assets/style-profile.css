@@ -1,0 +1,103 @@
+.card{
+  padding-top: 170px;
+  padding-left: 300px;
+  padding-right: -50px;
+  width: 100%;
+  height: 70vh;
+  background-position: left;
+  background-size: cover;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+.profile-box{
+  background: rgb(80, 128, 201);
+  text-align: center;
+  padding: 40px 90px;
+  color: rgb(9, 25, 95);
+  position: relative;
+  border-radius: 20px;
+}
+
+.fotoku{
+  margin-top: 10px;
+  width: 200px;
+  border-radius: 50%;
+  background: white;
+  padding: 5px;
+}
+
+.profile-bottom{
+  background: rgb(213, 213, 213);
+  color: black;
+  padding: 40px 0px;
+  margin-right: -90px;
+  margin-left: -90px;
+  margin-bottom: -20px;
+  border-radius: 20px;
+  margin-top: -5px;
+  
+}
+
+.profile-bottom img{
+  width: 45px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.profile-box button{
+  background: rgb(227, 225, 225);
+  color: rgb(12, 12, 12);
+  border: none;
+  outline: none;
+  box-shadow: 0px 5px 10px rgb(36, 35, 35);
+  padding: 15px 60px;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-bottom: -60px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.profile-box button:hover{
+  color: rgb(0, 37, 248);
+  transition: 0.3s;
+}
+.profile-bottom img:hover{
+  width: 50px;
+  height: 50px;
+  transition: 0.3s;
+}
+
+.sosmed img{
+  width: 35px;
+  margin: 20px 5px;
+  cursor: pointer;
+}
+
+
+.intro{
+  padding-top: 200px;
+}
+
+.intro h2{
+  color: #07328f;
+  font-size: 80px;
+  font-weight: 600;
+}
+.intro h3{
+  color: #07328f;
+  font-size: 85px;
+  font-weight: 900;
+}
+.intro h4{
+  color: #000000;
+  font-size: 30px;
+  font-weight: 500;
+}
+.intro p{
+  color: #121212;
+  font-size: 20px;
+  font-weight: 400;
+}

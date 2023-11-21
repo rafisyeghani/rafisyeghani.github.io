@@ -1,0 +1,35 @@
+body {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .card {
+    width: 450px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    align-items: center;
+    margin-top: 300px;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card .caption {
+    padding: 15px;
+    text-align: center;
+    background-color: #f0f0f0;
+  }
+
+.judul{
+  position: fixed;
+  text-align: center;
+  color: #07328f;
+  margin-top: -360px;
+  font-size: 50px;
+}
